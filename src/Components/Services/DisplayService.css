@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+.main-d-Service{
+  height: 100%;
+  width: 100%;
+
+}
+.main-inst-card1{
+  height: 100%;
+  width: 100%;
+  display: flex;
+
+flex-wrap: wrap;
+
+ justify-content: center;
+ box-sizing: border-box;
+
+}
+.d-Service-card{
+ 
+  height: 280px;
+  width: 350px;
+margin: 10PX 10px;
+  position: relative;
+  display: flex;
+  
+overflow: hidden;
+border-radius: 10px;
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+
+.d-inst-data {
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 85%;
+  height: 85%;
+  transition: height 0.5s ease-in-out;
+border-radius: 10px;
+background: #ffffff;
+box-shadow: 0 10px 25px rgba(0,0,0,.1);
+text-align: start;
+padding: 0 10px;
+
+}
+.d-inst-data p{
+  color:
+RGB(128, 128, 128);
+position: relative;
+top: -95px;
+}
+.inst-title{
+  position: relative;
+  top: -70px;
+  margin-left: 10px;
+  line-height: 30px;
+}
+.inst-title:nth-child(3){
+  color: #1bf308;
+  text-transform: capitalize;
+  position: relative;
+  top: -86px;
+}
+.Servicep{
+  position: relative;
+  top: -50px;
+}
+.d-inst-image {
+  position: relative;
+  height: 380px;
+  width: 100%;
+}
+.d-inst-image img{
+  border-radius: 10px;
+ 
+  height: 60%;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.hidden {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+
+.d-Service-card:hover .d-inst-data {
+  height: 180%; 
+}
+
+.d-Service-card:hover .Servicep,
+.d-Service-card:hover .Service-link {
+  display: block;
+  opacity: 1;
+}
+.d-Service-card:hover .d-inst-image img {
+  transform: scale(1.1); /* Scale up the image on hover */
+  transition: transform 0.3s ease; /* Apply transition for smooth scaling */
+}
+
+.d-Service-card:hover .d-inst-image img:hover,
+.d-Service-card:hover .d-inst-image:hover img {
+  transform: scale(1.1); 
+}
+.btn{
+  height: 40px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(128, 128, 128, 0.171);
+border-radius: 5px;
+cursor: pointer;
+background-color: #06df67;
+position: relative;
+  top: -90px;
+  transform : 3s ese in out ;
+}
+.btn:hover{
+  background: #7ffa67;
+  transition: 3s ease-in-out;
+}
+.gol-box{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #1bf308;
+  position: relative;
+  top: -50px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+}
+.location-icon{
+  margin-top: 10px;
+  color: gold;
+}
+.inst-heading{
+  font-size: 40px;
+  font-family: 'Spartan', sans-serif;
+color: rgba(0, 0, 0, 0.884);
+}
+.small-p{
+color: #272626ab;
+}
+.small-h{
+font-size: 40px;
+font-weight: 600;
+color:rgb(2,215,173);
+}
+@media screen and (max-width: 768px) {
+  .small-h{
+    font-size: 30px;
+  }
+
+}
+.btn-group{
+  display: flex;
+  gap: 20px;
+  
+}

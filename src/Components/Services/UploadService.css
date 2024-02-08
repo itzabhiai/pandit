@@ -1,0 +1,132 @@
+.Service-container{
+    height: 100%;
+    width: 100%;
+   
+  }
+  .MainuploadService{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+  .uploadService-card{
+    width: 50%;
+    text-align: start;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    position: relative;
+    padding: 40px;
+    top: 50%;
+    left: 25%;
+    border-radius: 20px;
+    }
+  .uploadService input,
+    .uploadService textarea ,
+    .uploadService file{
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+     
+      box-sizing: border-box;
+    }
+  
+  .Service-upload-dislay{
+    height: 100%;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+  
+  }
+  .Service-upload-dislay-card{
+    height: 100%;
+    width: 600px;
+    border: 2px solid rgb(4, 236, 93);
+    margin-bottom: 60px;
+    border-radius: 20px;
+  }
+  .Service-upload-dislay-card img{
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .upload-display-imageContainer{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  box-sizing: border-box;
+  
+  height: 100%;
+  }
+  .upload-Service-gallery{
+    width: 40%;
+    height:50%;
+  
+  
+  }
+  
+  .upload-Service-display-data{
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .Service-upload-display-p{
+    text-align: start;
+    font-weight: bold;
+    width: 100%;
+    padding: 0 20px;
+  }
+  .Service-upload-display-p-time{
+    text-align: start;
+  }
+  .institiute-upload-gallery-btn{
+    position: relative;
+    top: -60px;
+   height: 30px;
+   width: 80px;
+   margin: 5px;
+   gap: 20px;
+   border: none;
+   border-radius: 10px;
+   background: rgba(0, 128, 0, 0.733);
+   color: white;
+   cursor: pointer;
+  }
+  .institiute-upload-gallery-btn:nth-child(2){
+  background: red;
+  }
+  .Service-all-data-dlt-btn{
+    position: relative;
+    top: -10px;
+   height: 30px;
+   width: 190px;
+   margin: 5px;
+   gap: 20px;
+   border: none;
+   border-radius: 10px;
+   background: rgba(241, 1, 1, 0.959);
+   color: white;
+   cursor: pointer;
+  
+  }
+  .upload-Service-gallery img{
+    
+    object-fit: contain;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+    @media screen and (max-width: 750px) {
+      .uploadService-card{
+        width: 93%;
+        text-align: start;
+       
+      position: initial;
+      padding: 10px;
+        
+        border-radius: 20px;
+        }
+    }
