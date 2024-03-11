@@ -1,0 +1,189 @@
+.maindash{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+   
+}
+
+.service-usermessage-dash{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+justify-content: center;
+gap: 40px;
+align-items: center;
+    
+}
+.usermessage-dash{
+    width: 40%;
+    height: 140px;
+   
+    background: #02546d;  
+    cursor: pointer;
+
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+   
+}
+.usermessage-dash:hover{
+    background: #0488b1;  
+
+}
+.service-dash{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 140px;
+  
+    border-radius: 12px;
+cursor: pointer;
+   
+    background: #396afc; 
+    background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.service-dash:hover{
+    background: #012796;
+}
+.service-dash-img{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-dash-img img{
+    width: 70%;
+    aspect-ratio: 1/1;
+    
+}
+.textservice-dash{
+    width: 60%;
+    height: 100%;
+    text-align: start;
+
+}
+.textservice-dash h2{
+   font-weight: 500;
+align-self: start;
+color: #05fcca;
+}
+.textservice-dash p{
+   color: rgb(253, 253, 253);
+ }
+.service-dash1{
+    width: 100%;
+    height: 60px;
+
+    
+}
+.vender-dash{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+justify-content: center;
+gap: 40px;
+align-items: center;
+}
+.vender-list{
+    width: 40%;
+    height: 400px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    overflow-y: auto;
+    scrollbar-width: none;
+    background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+cursor: pointer;
+}
+.vender-message{
+    width: 40%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 12px;
+   background: rgba(65,143,222,1);
+}
+.v-messag-list{
+  
+    height: 110px;
+    width: 160px;
+    border-radius: 12px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 10px;
+    background: rgb(2,215,173);
+       background: linear-gradient(87deg, rgba(2,215,173,1) 48%, rgba(21,218,125,1) 70%);
+}
+.v-messag-list:hover{
+    background: rgb(2, 236, 190);
+}
+.vender-icon{
+    width: 100%;
+    height: 20%;
+    font-size: 35px;
+    
+}
+.vendericon-text{
+    height:80% ;
+    width: 100%;
+}
+.vendericon-text h3 {
+    position: relative;
+    top: -26px;
+}
+.vendericon-text p {
+    position: relative;
+    top: -46px;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 0px 5px;
+}
+
+@media screen and (max-width: 968px) {
+    .service-usermessage-dash{
+        height: 320px;
+    }
+.service-dash{
+
+    width: 90%;
+}
+.usermessage-dash{
+    width: 90%;
+}
+.vender-dash{
+    min-height: 1000px;
+    height: 100%;
+    margin-top: 40px;
+}
+.vender-list{
+    width: 90%;
+}
+.vender-message{
+    width: 95%;
+    height: 100%;
+}
+.v-messag-list{
+  
+    height: 110px;
+    width: 150px;}
+    .textservice-dash h2{
+        font-weight: 500;
+        font-size: 20px;
+     
+     }
+     .textservice-dash p{
+        color: rgb(253, 253, 253);
+        font-size: 16px;
+      }
+}

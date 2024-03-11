@@ -1,0 +1,158 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    background-image: url("https://res.cloudinary.com/ddkyeuhk8/image/upload/v1709098684/th579sarhtfb8dbbdlbk.png");
+    
+  }
+  .message-date{
+    padding: 10px 0 10px 0px;
+    font-weight: 600;
+  }
+.timestamp{
+  font-size: 10px;
+  align-self: start;
+  color: #666;
+  line-height: 14px;
+}
+
+  .service-title{
+    height: 50px;
+    width: 30%;
+    position: fixed;
+    bottom: 60px;
+   background: #d1eaf4;
+    border-radius: 10px;
+    color: rgb(22, 22, 22);
+    font-weight: 600;
+
+  }
+  .messages-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 80vh;
+    margin-bottom: 60px;
+    height: 100%;
+    overflow-y: auto; /* Changed to auto */
+    scroll-behavior: smooth; /* Added smooth scrolling */
+    
+}
+
+.message {
+  min-width: 190px;
+  text-align: start;
+    max-width: 80%;
+    padding: 0 10px 0 10px ;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+   
+
+}
+
+
+  
+  .admin-message {
+    align-self: flex-end;
+    background-color: #d1eaf4;
+  }
+  
+  .user-message {
+    align-self: flex-start;
+    background-color: #f3f3f3;
+  }
+  .main-input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    background: rgb(2,215,173);
+    background: linear-gradient(87deg, rgba(2,215,173,1) 48%, rgba(21,218,125,1) 70%);
+    position: fixed;
+    bottom: 0;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    width: 70%;
+
+gap: 10px;
+  }
+  
+  .inputtext{
+width: 60%;
+height: 30px;
+font-size: 15px;
+  }
+  .inputbtn{
+    width: 40px;
+    height: 38px;
+    
+  
+  }
+  
+  .input-container button {
+    
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .input-container button:hover {
+    background-color: #0056b3;
+  }
+  .inputtext{
+    width: 100%;
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .messages-container {
+      display: flex;
+      flex-direction: column;
+   
+      width: 100%;
+      margin-bottom: 60px;
+     
+     height: 80%;
+      overflow-y: scroll;
+      background-image: url("https://res.cloudinary.com/ddkyeuhk8/image/upload/v1709098683/feiakqzxwryx2jmlbfk1.png");
+  }
+  .input-container {
+    display: flex;
+    align-items: center;
+    width: 95%;
+
+gap: 5px;
+  }
+  .inputbtn{
+    width: 40px;
+    height: 38px;
+    
+  
+  }
+  .service-title{
+    height: 50px;
+    width: 90%;
+    position: fixed;
+    bottom: 60px;
+    text-align: start;
+    padding-left: 10px;
+    border-radius: 10px;
+
+  }
+  .message {
+
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  }

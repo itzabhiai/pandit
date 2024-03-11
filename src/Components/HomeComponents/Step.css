@@ -1,0 +1,55 @@
+.step-container {
+    width: 600px; /* Adjust the container width */
+    margin: 0 auto;  /* Center the container */
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f5f5f5; /* Light gray background */
+  }
+  
+  .step-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333; /* Dark gray text */
+  }
+  
+  .step-list {
+    list-style: none; /* Remove default list markers */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .step-item {
+    display: flex;   /* Arrange number, text, description horizontally */
+    align-items: flex-start;  /* Vertically align to the top */
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd; /* Add a dividing line between steps */
+    padding-bottom: 10px; /* Add spacing below the dividing line */
+  }
+  
+  .step-number {
+    width: 30px;     /* Adjust number circle width */
+    height: 30px;   /* Adjust number circle height */
+    border-radius: 50%;  /* Make it a circle */
+    background-color: #28a745;  /* Green color */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;        /* Center the number vertically */
+    margin-right: 15px;
+  }
+  
+  .step-text {
+    font-size: 18px; 
+    font-weight: bold;
+    color: #333; /* Dark gray text */
+  }
+  
+  .step-description {
+     font-size: 16px;
+     color: #555;
+     margin-left: 5px;  /* Slight indent from step-text */ 
+     color: #333; /* Dark gray text */
+  }
+  

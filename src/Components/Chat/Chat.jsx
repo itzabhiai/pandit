@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { collection, addDoc, onSnapshot, query, doc, where, getDoc } from 'firebase/firestore';
 import { textdb, auth } from '../../firebaseConfig';
 import { toast } from 'react-toastify';
-import './Chat.css'; // Import CSS file for styling
+import './Chat.css'; 
 
 const Chat = () => {
     const [message, setMessage] = useState('');

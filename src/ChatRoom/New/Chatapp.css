@@ -1,0 +1,62 @@
+/* .messages-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  width: 80%;
+  margin-bottom: 20px;
+  height: 20vh !important;
+  overflow: scroll;
+  border: 2px solid red;
+} */
+.combined-messages {
+  display: flex;
+  flex-direction: column-reverse; 
+}
+
+.admin-message,
+.user-message {
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  max-width: 70%;
+}
+
+.admin-message p,
+.user-message p {
+  margin: 0;
+}
+
+
+/* Style for admin messages */
+.admin-message {
+  align-self: flex-end;
+  background-color: #d1eaf4;
+}
+
+/* Style for user messages */
+.user-message {
+  align-self: flex-start;
+  background-color: #f3f3f3;
+}
+
+
+.user-message:hover {
+  cursor: pointer;
+  background-color: #d1eaf4;
+}
+.unauthorise{
+  background: #cecdcd;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  flex-direction: column;
+}
+.unauthorise img{
+  max-height: 400px;
+  max-width: 400px;
+  height: 400px;
+  width: 400px;
+}

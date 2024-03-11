@@ -1,0 +1,201 @@
+
+.mes:focus
+  {
+    background: #ffffff;
+  }
+.mes{
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background: transparent; 
+}
+.inputform{
+    margin-top: 90px;
+    height: 90%;
+    width: 50%;
+    text-align: start;
+    padding: 10px ;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px sold red;
+    margin-right: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px) saturate(113%);
+    -webkit-backdrop-filter: blur(1px) saturate(113%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    color: #2c2c2c;
+  
+}
+.inputform h2{
+    font-weight: 500;
+    color: black;
+}
+
+.main-farm{
+display: flex;
+justify-content: center;
+flex-direction: row;
+margin: 0 20px;
+height: 600px;
+width: 100%;
+z-index: 978;
+}
+.loginimg{
+    width: 50%;
+    margin-top: 90px;
+    text-align: start;
+}
+.loginimg h2{
+   font-size: 30px;
+   font-weight: 500;
+
+}
+.loginimg p{
+    color: RGB(128, 128, 128);
+ font-weight: 500;
+ }
+.quote-form{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-size:Cover;
+    align-items: center;
+
+}
+.button {
+    --color: #00A97F;
+    padding: 0.4em 1.7em;
+    background-color: transparent;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+   }
+   
+   .button::before, .button::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+   }
+   
+   .button::before {
+    top: -1em;
+    left: -1em;
+   }
+   
+   .button::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+   }
+   
+   .button:hover::before, .button:hover::after {
+    height: 410px;
+    width: 410px;
+   }
+   
+   .button:hover {
+    color: rgb(10, 25, 30);
+   }
+   
+   .button:active {
+    filter: brightness(.8);
+   }
+   .contact-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+   }
+   .contact-icon{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 0.5px solid rgba(68, 68, 68, 0.726);
+   }
+   .c-icon{
+    height: 25px;
+    width: 25px;
+    color: rgba(128, 128, 128, 0.788);
+   }
+   .c-icon:hover{
+    color: rgb(255, 255, 255);
+    
+   }
+   .contact-icon:hover{
+    background: #1ab69d;
+   }
+
+
+   .contact-hero{
+    height: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 40%;
+    background-color: #f5f9fa;
+   }
+   .contact-hero h1{
+    font-size: 55px;
+    font-weight: 700;
+    color: RGB(24, 24, 24);
+   }
+   .contact-p{
+    font-weight: 700;
+   }
+   .contact-navigate{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+   }
+ 
+@media screen and (max-width: 768px) {
+
+    .main-farm{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 10px;
+        }
+        .loginimg{
+            width: 100%;
+            margin-top: 398px;
+        }
+        .inputform{
+            width: 90%;
+        }
+        .quote-form{
+            height: 110vh;
+        }
+        .contact-map{
+            margin-top: 390px;
+        }
+}

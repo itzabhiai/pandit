@@ -21,7 +21,7 @@ const auth = getAuth(app);
 const database = getDatabase(app);
 auth.settings.appVerificationDisabledForTesting = true;
 
-export { textdb, storage, auth, app,database };
+export { textdb, storage, auth, app, database };
 export default firebaseConfig;
 
 

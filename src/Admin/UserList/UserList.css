@@ -1,0 +1,71 @@
+.user-list-container {
+    width: 90%;
+    margin: 0 auto;
+    min-height: 100vh;
+    height: 100%;
+    padding-top: 40px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.responsive-table th,
+.responsive-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.responsive-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+}
+
+.responsive-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.responsive-table tr:hover {
+    background-color: #ddd;
+}
+
+.approve-btn,
+.deny-btn,
+.remove-btn {
+    padding: 5px 10px;
+    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin: 5px;
+    
+}
+
+.approve-btn {
+    background-color: #4caf50; /* Green */
+
+}
+
+.deny-btn {
+    background-color: #f44336; /* Red */
+}
+
+.remove-btn {
+    background-color: #2196f3; /* Blue */
+}
+
+.approve-btn:hover,
+.deny-btn:hover,
+.remove-btn:hover {
+    background-color: #45a049;
+}
